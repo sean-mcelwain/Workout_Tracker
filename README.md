@@ -32,4 +32,4 @@ For any question regarding this project, my preferred method of communication is
 
 <a name='screenshot'></a>
  ## Screenshot 
-![Screenshot](https://raw.githubusercontent.com/sean-mcelwain/Budget_Tracker/main/screenshot.JPG)
+![Screenshot](https://)
