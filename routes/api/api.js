@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const Workout = require("../../models/Workout.js");
 
-const aggregate = Workout.aggregate([]);
 
 router.get('/workouts', (req, res) => {
 	Workout.find({})
