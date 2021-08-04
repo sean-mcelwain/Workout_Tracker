@@ -54,4 +54,16 @@ router.post('/workouts', ({body}, res) => {
         res.status(400).json(err);
     });
 });
+
+router.post('/workouts/range', ({ body }, res) => {
+	Workout.insertMany(body)
+		.then((data) => {
+			res.json(data);
+		})
+		.catch((err) => {
+			res.status(400).json(err);
+		});
+});
+
+
 module.exports = router;
