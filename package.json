@@ -1,15 +1,21 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "16.0.0"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+"repository": {
+    "type": "git",
+    "url": "https://github.com/sean-mcelwain/Workout_Tracker.git"
+  },
+  "author": "SM",
   "license": "ISC",
   "dependencies": {
     "db": "^3.3.1",
