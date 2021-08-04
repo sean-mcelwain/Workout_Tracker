@@ -11,7 +11,7 @@ This app allows a user to track their workouts.
  5. [ Screenshot. ](#screenshot) 
 
 ## Heroku Link
-URL: (To be updated when deployed)
+URL: https://workout-tracker-sm.herokuapp.com/
 
  <a name='installation'></a>
  ## Installation 
