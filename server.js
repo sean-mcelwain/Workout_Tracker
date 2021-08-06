@@ -8,7 +8,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(morgan('tiny'));
+app.use(morgan('dev'));
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout", 
