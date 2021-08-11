@@ -12,13 +12,14 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-"repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/sean-mcelwain/Workout_Tracker.git"
   },
   "author": "SM",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "db": "^3.3.1",
     "express": "^4.16.3",
     "mongojs": "^3.1.0",
